@@ -63,7 +63,7 @@ while satisfaction == False:
         else:
             satisfaction = False
 
-#If you choose a long name, this is executed
+    #If you choose a long name, this is executed
     if userinput == "long":
     
         #Calls the long function created earlier

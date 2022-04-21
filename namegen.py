@@ -24,12 +24,9 @@ def short():
     
     #If you say yes, a random number is chosen to be added
     if numbers == "Y":
-        
-        #List of numbers up to 99
-        numbers1 = [1 , 2, 3, 4, 5 , 6 ,7 ,8 ,9 ,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 ,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99]
-        
+       
         #Chooses a random number from the list
-        numbers2 = random.choice(numbers1)
+        numbers2 = random.randint(1,99)
 
         #Prints the prefix with the first letter uppercase, the root, the suffix, and numbers
         print(prefix2.title() + root2 + str(numbers2))
@@ -67,12 +64,9 @@ def long():
     
     #If you say yes, a random number is chosen 
     if numbers == "Y":
-        
-        #List of numbers
-        numbers1 = [1 , 2, 3, 4, 5 , 6 ,7 ,8 ,9 ,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 ,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99]
-        
+
         #Chooses a random number
-        numbers2 = random.choice(numbers1)
+        numbers2 = random.randint(1,99)
 
         #Prints the prefix with the first letter uppercase, the root, the suffix, and numbers
         print(prefix2.title() + root2 + suffix2 + str(numbers2))
@@ -88,11 +82,11 @@ satisfaction = False
 while satisfaction == False:
     
     #Asks if want a long or short name
-    userinput = input("Do you want a short name or a long one? Type short for a short one and long for a long one: ")
+    userinput = input("Do you want a short name or a long one? Type S for a short one and L for a long one: ")
     userinput1 = userinput.upper()
     
     #If you choose short, this bit of code is executed
-    if userinput == "short":
+    if userinput1 == "S":
         
         #Calls the short function created earlier
         short()
@@ -106,7 +100,7 @@ while satisfaction == False:
             satisfaction = False
 
     #If you choose a long name, this is executed
-    if userinput == "long":
+    if userinput1 == "L":
     
         #Calls the long function created earlier
         long()

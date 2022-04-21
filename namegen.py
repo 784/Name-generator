@@ -16,7 +16,7 @@ def short():
     #Chooses a random root from the list
     root2 = random.choice(root1)
     
-    print(prefix2 + root2)
+    print(prefix2.title() + root2)
 
 #Creates a function to make the long names
 def long():
@@ -39,7 +39,7 @@ def long():
     #Chooses a random suffix from the list
     suffix2 = random.choice(suffix1)
 
-    print(prefix2 + root2 + suffix2)
+    print(prefix2.title() + root2 + suffix2)
 
 #Sets satisfaction to false
 satisfaction = False

@@ -1,5 +1,5 @@
 # Name-generator
-Python script that allows you to generate random names. It's pretty small and it's all annotated, so you're easily able to modify it to your own needs.
+Python script that allows you to generate random names. It's pretty small and it's all annotated, so you're easily able to modify it to your own needs. I hope you enjoy it <3
 
 # How to use it?
 When the script starts, you're given the option of picking between two modes (normal mode and mass generate).
@@ -13,8 +13,6 @@ Mass generate mode is very similar to normal mode, except there's one main diffe
 ## TLDR?
 Normal mode is useful if you're only planning on generating a couple of usernames while mass generate mode is useful if you're generating hundreds or potentially thousands of usernames.
 
-## Enjoy!
-I hope you enjoy it <3
 
 
 

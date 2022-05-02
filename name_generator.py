@@ -8,7 +8,7 @@ mode = input("\nDo you want to use username mode or real name mode? 'U' for user
 if mode == "U":
     
     #Asks if you want to mass generate names
-    userinput1 = input("\nDo you want to mass generate names or do you only want a few? Type 'M' for mass generate, 'F' for few: ")
+    userinput1 = input("\nDo you want to mass generate names or do you only want a few? Type 'M' for mass generate, 'F' for a few: ")
     
     #Only a few names are generated if you decide to do this
     if userinput1 == "F":
@@ -32,7 +32,7 @@ if mode == "U":
             print(prefix2.title() + root2)
     
             #Asks if you want to add numbers
-            numbers = input("\nWould you like to add numbers to the name? Type Y for yes and N for no: ")
+            numbers = input("\nWould you like to add numbers to the name? Type 'Y' for yes and 'N' for no: ")
     
             #If you say yes, a random number is chosen to be added
             if numbers == "Y":
@@ -69,7 +69,7 @@ if mode == "U":
             print(prefix2.title() + root2 + suffix2)
 
             #Asks if you want to add numbers to the name
-            numbers = input("\nWould you like to add numbers to the name? Type Y for yes and N for no: ")
+            numbers = input("\nWould you like to add numbers to the name? Type 'Y' for yes and 'N' for no: ")
     
             #If you say yes, a random number is chosen 
             if numbers == "Y":
@@ -89,8 +89,11 @@ if mode == "U":
         while satisfaction == False:
     
             #Asks if want a long or short name
-            userinput = input("Do you want a short name or a long one? Type short for a short one and long for a long one: ")
+            userinput1 = input("Do you want a short name or a long one? Type 'short' for a short one and 'long' for a long one: ")
     
+            #Making it lowercase
+            userinput = userinput1.lower()
+        
             #If you choose short, this bit of code is executed
             if userinput == "short":
         
@@ -129,8 +132,11 @@ if mode == "U":
     if userinput1 == "M":
 
         #Asks if want a long or short name
-        userinput = input("\nDo you want short usernames or long ones? Type short for 'short' ones and 'long' for long ones: ")
-    
+        userinput1 = input("\nDo you want short usernames or long ones? Type 'short' for short ones and 'long' for long ones: ")
+        
+        #Making it lowercase
+        userinput = userinput1.lower()
+        
         #If you choose short, this bit of code is executed
         if userinput == "short":
         
@@ -171,7 +177,7 @@ if mode == "U":
             with open('names.txt', 'w') as file:
 
                 #Asks how many you want to generate
-                n=int(input("How many names would you like to generate: "))
+                n=int(input("How many names would you like to generate? "))
         
                 #Generates as many names as you want
                 for i in range(n):
@@ -208,13 +214,13 @@ if mode == "U":
 if mode == "R":
 
     #Choosing mass generate mode or few mode
-    userinput1 = input("\nDo you want to mass generate names or do you only want a few? Type 'M' for mass generate, 'F' for few: ")
+    userinput1 = input("\nDo you want to mass generate names or do you only want a few? Type 'M' for mass generate, 'F' for a few: ")
 
     #Mass generate mode
     if userinput1 == "M":
 
         #Asks if want a long or short name
-        userinput = input("\nDo you want short usernames or long ones? Type short for 'short' ones and 'long' for long ones: ")
+        userinput = input("\nDo you want short usernames or long ones? Type 'short' for short ones and 'long' for long ones: ")
     
         #If you choose short, this bit of code is executed
         if userinput == "short":
@@ -223,7 +229,7 @@ if mode == "R":
             with open('names.txt', 'w') as file:
 
                 #Asks how many you want to generate
-                n=int(input("How many names would you like to generate: "))
+                n=int(input("How many names would you like to generate? "))
         
                 #Generates as many names as you want
                 for i in range(n):
@@ -256,7 +262,7 @@ if mode == "R":
             with open('names.txt', 'w') as file:
 
                 #Asks how many you want to generate
-                n=int(input("How many names would you like to generate: "))
+                n=int(input("How many names would you like to generate? "))
         
                 #Generates as many names as you want
                 for i in range(n):
@@ -298,7 +304,7 @@ if mode == "R":
         while satisfaction == False:
     
             #Asks if want a long or short name
-            userinput = input("Do you want a short name or a long one? Type short for a short one and long for a long one: ")
+            userinput = input("Do you want a short name or a long one? Type 'short' for a short one and 'long' for a long one: ")
     
             #If you choose short, this bit of code is executed
             if userinput == "short":

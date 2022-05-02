@@ -2,18 +2,10 @@
 Python script that allows you to generate random names. It's pretty small and it's all annotated, so you're easily able to modify it to your own needs. I hope you enjoy it <3
 
 # How to use it?
-When the script starts, you're given the option of picking between two modes (normal and mass generate).
+When the script starts, you're given the option of picking between two modes (usernames and real names).
 
-### Normal mode
-Normal mode is what you'd choose if you only want to generate one name. You can choose to generate either a short name or a long one! Short names are a prefix and a root while long names are a prefix, a root, and a suffix. You'll also be asked whether or not you want to add numbers to it. The script will loop until you're satisfied with the name you received! 
+### Username mode
+Username mode is useful if you're just looking for usernames instead of real names. You're given the option of choosing between few and mass generate. Few mode is useful if you only need a few names. Mass generate mode is useful if you're trying to mass generate a bunch of fake names that are all saved to a text file named 'names.txt'.
 
-### Mass generate mode
-Mass generate mode is very similar to normal mode, except there's one main difference. It allows you to generate as many names as you want all at once! Short names are still prefixes and roots and long names are still a prefix, root, and suffix. All of the names are saved to a text file named 'names.txt', which should be in the same directory as the script is. 
-
-## TLDR?
-Normal mode is useful if you're only planning on generating a couple of usernames while mass generate mode is useful if you're generating hundreds or potentially thousands of usernames.
-
-
-
-
-
+### Real names mode
+Real names mode works in a very similar way to username mode, but instead of usernames, you're given real names. You're given the option of choosing between few and mass generate. Few mode is useful if you only need a few names. Mass generate mode is useful if you're trying to mass generate a bunch of fake names that are all saved to a text file named 'names.txt'.

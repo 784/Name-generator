@@ -13,3 +13,5 @@ Real names mode works in a very similar way to username mode, but instead of use
 # GUI version
 
 There's also a GUI version of the script that I made. It does the exact same thing as the text based one, but it's a lot easier to use if you're a new user. When you click a button, a popup comes up telling you your name. If you're mass generating names, there's a textbox. You can enter the amount of names that you want to generate. Once you click the button of the type of names you want, they'll be saved to a text file named 'names.txt'. A popup window also comes up telling you where they're saved incase you forget!
+
+![image](https://cdn.discordapp.com/attachments/967634582507757588/975083448245055578/unknown.png)

@@ -1,7 +1,7 @@
 # Name-generator
 Python script that allows you to generate random names. It's pretty small and it's all annotated, so you're easily able to modify it to your own needs. I hope you enjoy it <3
 
-# How to use it?
+# Text based script version
 When the script starts, you're given the option of picking between two modes (usernames and real names).
 
 ### Username mode

@@ -29,4 +29,4 @@ There's also a GUI version of the script that I made. It does the exact same thi
 
 ### Run GUI_name_generator.py if you want the GUI version
 
-![image](https://cdn.discordapp.com/attachments/967634582507757588/975083448245055578/unknown.png)
+![image](https://cdn.discordapp.com/attachments/969084180334006292/975198011653230642/unknown.png)
